@@ -1,5 +1,6 @@
 * {
 	margin: 0;
+	/*outline: 1px solid black;*/
 }
 
 @font-face {
@@ -17,30 +18,36 @@
 	height: 900px;
 	background-color: #27292d;
 	text-align: center;
+	letter-spacing: 10px;
 }
 
 .wow {
 	font-family: bebas-neue-bold;
 	color: #ffffff;
 	font-size: 62px;
+	padding: 90px 0 0 0;
 }
 
 .text {
 	font-family: bebas-neue-book;
 	color: #666666;
 	font-size: 30px;
+	padding: 35px 0 0 0;
 }
 
 .main {
 	font-family: bebas-neue-bold;
 	color: #ffffff;
 	font-size: 320px;
+	padding: 100px 0 0 25px;
+	letter-spacing: 80px;
 }
 
 .back {
 	font-family: bebas-neue-book;
 	color: #666666;
 	font-size: 24px;
+	padding: 150px 45px 0 0;
 }
 
 .home {
