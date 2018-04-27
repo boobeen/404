@@ -1,0 +1,51 @@
+* {
+	margin: 0;
+}
+
+@font-face {
+	font-family: 'bebas-neue-book';
+	src: url('fonts/bebas-neue-book.ttf');
+}
+
+@font-face {
+	font-family: 'bebas-neue-bold';
+	src: url(fonts/bebas-neue-bold.ttf);
+}
+
+.wrapper {
+	width: 1440px;
+	height: 900px;
+	background-color: #27292d;
+	text-align: center;
+}
+
+.wow {
+	font-family: bebas-neue-bold;
+	color: #ffffff;
+	font-size: 62px;
+}
+
+.text {
+	font-family: bebas-neue-book;
+	color: #666666;
+	font-size: 30px;
+}
+
+.main {
+	font-family: bebas-neue-bold;
+	color: #ffffff;
+	font-size: 320px;
+}
+
+.back {
+	font-family: bebas-neue-book;
+	color: #666666;
+	font-size: 24px;
+}
+
+.home {
+	font-family: bebas-neue-bold;
+	color: #ffffff;
+	font-size: 24px;
+
+}
