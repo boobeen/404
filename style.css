@@ -14,45 +14,71 @@
 }
 
 .wrapper {
-	width: 1440px;
-	height: 900px;
+	width: 100vw;
+	height: 100vh;
 	background-color: #27292d;
 	text-align: center;
-	letter-spacing: 10px;
+	letter-spacing: 0.5vw;
+}
+
+.header {
+	height: 40vh;
+	line-height: 15vh;
 }
 
 .wow {
 	font-family: bebas-neue-bold;
 	color: #ffffff;
-	font-size: 62px;
-	padding: 90px 0 0 0;
+	font-size: 7vh;
 }
 
 .text {
 	font-family: bebas-neue-book;
 	color: #666666;
-	font-size: 30px;
-	padding: 35px 0 0 0;
+	font-size: 4vh;
 }
-
+.text a {
+	text-decoration: none;
+}
 .main {
+	height: 25vh;
+	width: 43vw;
+	margin: 0 auto;
 	font-family: bebas-neue-bold;
 	color: #ffffff;
-	font-size: 320px;
-	padding: 100px 0 0 25px;
-	letter-spacing: 80px;
+	font-size: 35vh;
+	line-height: 24vh;
+	letter-spacing: 7.5vw;
+	position: relative;
+	z-index: 1;
 }
 
-.back {
+.main:after {
+	content: "";
+	width: 70vw;
+	height: 60vh;
+	background: url(img/shadow.png) no-repeat;
+	-webkit-background-size: 68vw 57vh;
+	background-size: 68vw 57vh;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: -1;
+}
+
+.footer {
+	height: 35vh;
 	font-family: bebas-neue-book;
 	color: #666666;
-	font-size: 24px;
-	padding: 150px 45px 0 0;
+	font-size: 3vh;
+	line-height: 45vh;
 }
 
-.home {
+.footer a {
 	font-family: bebas-neue-bold;
 	color: #ffffff;
-	font-size: 24px;
-
+	/*font-size: 3vh;*/
+	text-decoration: none;
+	position: relative;
+	z-index: 1;
 }
