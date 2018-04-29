@@ -37,18 +37,14 @@
 	color: #666666;
 	font-size: 4vh;
 }
-.text a {
-	text-decoration: none;
-}
+
 .main {
 	height: 25vh;
-	width: 43vw;
-	margin: 0 auto;
 	font-family: bebas-neue-bold;
 	color: #ffffff;
 	font-size: 35vh;
 	line-height: 24vh;
-	letter-spacing: 7.5vw;
+	letter-spacing: 5.5vw;
 	position: relative;
 	z-index: 1;
 }
@@ -67,4 +63,30 @@
 	text-decoration: none;
 	position: relative;
 	z-index: 1;
+}
+
+@media screen and (max-width: 820px)  {
+
+	.wrapper {
+		letter-spacing: 0.3vw;
+	}
+
+	.main {
+		letter-spacing: 3.5vw;
+	}
+}
+
+@media screen and (max-width: 720px)  {
+
+	.wrapper {
+		letter-spacing: 0.2vw;
+	}
+	
+	.text {
+		line-height: 8vh;
+	}
+
+	.main {
+		letter-spacing: 3.5vw;
+	}
 }
