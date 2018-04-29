@@ -39,14 +39,16 @@
 }
 
 .main {
-	height: 25vh;
+	display: inline-block;
 	font-family: bebas-neue-bold;
 	color: #ffffff;
-	font-size: 35vh;
-	line-height: 24vh;
+	font-size: 32vh;
+	line-height: 22vh;
 	letter-spacing: 5.5vw;
-	position: relative;
-	z-index: 1;
+	text-shadow: 1vw 0.5vh 0.2vh #1f2124,
+	2vw 1vh 0.5vh #1f2124,
+	3vw 2vh 1vh #1f2124,
+	4vw 3vh 2vh #1f2124;
 }
 
 .footer {
